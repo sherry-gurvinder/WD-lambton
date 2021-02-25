@@ -1,0 +1,106 @@
+html,body{
+    margin: 0 auto;
+}
+.Container
+{
+    background-image: url('images/back.jpg');
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc; /* Used if the image is unavailable */
+ position: relative;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+    .Reg-form {
+        background-color: #1f3623e6;
+        width: 50%;
+        margin-left: 25%;
+        color: white;
+    }
+.error
+{
+    color: red;
+}
+.form-heading
+{
+    text-align: center;
+}
+#form-div
+{
+    padding: 30px;
+}
+.input-div
+{
+
+}
+input[type="text"] {
+    width: 38%;
+    height: 35px;
+}
+#citytopin input
+{
+    width: 25%;
+}
+#checkin-out input
+{
+    width: 15%;
+}
+
+#notmanadatory
+{
+    margin-left: 13px;
+}
+.input-div .covid-images {
+    border-radius: 70%;
+    width: 50%;
+}
+.sysmptoms {
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+}
+.submit-div 
+{
+    text-align: center;
+}    
+input#Submit {
+    width: 50%;
+    height: 50px;
+    margin-top: 30px;
+    border: 1px solid;
+    font-size: 18px;
+}
+input#Submit:hover {
+    width: 50%;
+    height: 50px;
+    margin-top: 30px;
+    border: 1px solid;
+    font-size: 18px;
+    background: chartreuse;
+    color: white;
+}
+h2
+{
+    text-align: center;
+
+}
+div#Header {
+    background-color: #1f3623e6;
+    text-align: center;
+    height: 63px;
+}
+div#footer {
+    background-color: #1f3623e6;
+   
+    height: 63px;
+}
+.policyheading
+{
+    font-size: 25px;
+    font-variant: petite-caps;
+
+}
+label {
+    font-size: 20px;
+}

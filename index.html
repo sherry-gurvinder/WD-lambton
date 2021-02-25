@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  
+  </script>
+    <script src="validate.js"></script>
+    
+    <title>Registration Form</title>
+</head>
+<body>
+    <div id="Header">
+        <img src="images/slideimage.jpg" id="imageslide"> 
+    </div>
+    <div class=Container>
+        
+    <div class="Reg-form">
+        <div class="form-heading">
+            
+            <img src="images/hotel.png" style="width: 20%;">
+        </div>
+        <hr>
+        <div id="form-div">
+            <form class="form-field">
+                <!-- Full Name-->
+                <h2>Personal Information details</h2>
+                <div class="input-div">
+                    <span id="fname-error" class="error"></span><br>
+                    <span class="error">*</span>
+                    <input type="text" name="fname" id="fname" placeholder="First Name">
+                    
+                    <input type="text" name="lname"  placeholder="Last Name">
+                </div>
+                <!-- End-->
+                <!-- Email Address -->
+                <div class="input-div">
+                    <span id="Address-error" class="error"></span><br>
+                    <span  class="error">*</span>
+                    <input type="text" name="Address1" id="add1" placeholder="Address 1">
+                    <input type="text" name="Address2" placeholder="Address 2" id="notmanadatory">
+                </div>
+                <!-- End-->
+                <!-- Address-->
+                <div class="input-div">
+                    <span id="email-error" class="error"></span><br>
+                    <span  class="error">*</span>
+                    <input type="text" name="email" id="email" placeholder="Email Address">
+                    <span  class="error">*</span>
+                    <input type="text" name="Phone" id="phone" placeholder="Phone">
+                </div>
+                <!-- End-->
+                <!-- Address-->
+                <div class="input-div" id="citytopin">
+                    <span id="citytopin-error" class="error"></span><br>
+                    <span  class="error">*</span>
+                    <input type="text" name="City" id="City" placeholder="City">
+                    <span  class="error">*</span>
+                    <input type="text" name="State" id="State" placeholder="State">
+                    <span  class="error">*</span>
+                    <input type="text" name="Pincode" id="Pincode" placeholder="Pincode">
+                </div>
+                <!-- End-->
+                <h2>Checkin Checkout</h2>
+               <hr>
+
+                 <!-- Checkin Checkout-->
+                 <div class="input-div" id="checkin-out">
+                    <span id="Date-error" class="error"></span><br>
+                    <span  class="error">*</span>
+                    <input type="text" name="Date" id="Checkin" placeholder="Checkin Date">
+                    <span  class="error">*</span>
+                    <!--Checkin time-->
+                    <label for="Checkin-Time">Checkin Time</label>
+                        <select id="Checkintime" placeholder="Checkin Time">
+                        <option>11</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        
+
+                    </select>
+                    <select id="checkin">
+                        
+                        <option>AM</option>
+                        <option>PM</option>
+                    </select>
+                    <!--end -->
+                 </div>
+                    <div class="input-div" id="checkin-out">
+                    <span  class="error">*</span>
+                    <input type="text" name="Pincode"  id="Checkout" placeholder="Checkout Date">
+                    <!--Checkin time-->
+                    <span  class="error">*</span>
+                    <label for="Checkout-Time">Checkout Time</label>
+                    
+                        <select id="Checkout" placeholder="Checkout Time">
+                        <option>10</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        
+
+                    </select>
+                    <select id="">
+                        
+                        <option>AM</option>
+                        <option>PM</option>
+                    </select>
+                    <!--end -->
+                </div>
+                <div class="input-div" >
+                <!-- Room Prefrence-->
+                <span id="Room-error" class="error"></span><br>
+                <h2>Room Prefrence<span  class="error">*</span></h2>
+                <input type="radio" id="Standard" name="Room-Prefrence" value="Standard">
+                <label for="Standard">Standard</label><br>
+                <input type="radio" id="Delux" name="Room-Prefrence" value="Delux">
+                <label for="Delux">Delux</label><br>
+                <input type="radio" id="suite" name="Room-Prefrence" value="Suite">
+                <label for="suite">Suite</label>
+                <!-- End-->
+            </div>
+                <!--Person-->
+                <div class="input-div" id="checkin-out">
+                <label for="Adults">Adults</label>
+                    
+                <select id="">
+                <option>1</option>
+                
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                </select>
+
+                <label for="Childern">Childern</label>
+                    
+                <select >
+                <option></option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                </select>
+                <!--END-->
+                </div>
+                <hr>
+                <h2>Covid-19</h2>
+                <h3>Do you have any of the following new or worsening symptoms or signs?<span  class="error">*</span></h3>
+                <div class="sysmptoms">
+                <div class="input-div" >
+                    <span id="fever-error" class="error"></span><br>
+                    <!-- Fever-->
+                    <img class="covid-images" src="images/fever.jpg">
+                    <br>
+                    <input type="radio" id="Yes" name="fever" value="Yes">
+                    <label for="Yes">Yes</label>
+                    <input type="radio" id="No" name="fever" value="No">
+                    <label for="No">No</label><br>
+                </div>
+                <!--End-->
+                <div class="input-div" >
+                    <span id="Chillis-error" class="error"></span><br>
+                    <!-- Chillis-->
+                    <img class="covid-images" src="images/Chillis.jpg">
+                    <br>
+                    <input type="radio" id="Yes" name="Chillis" value="Yes">
+                    <label for="Yes">Yes</label>
+                    <input type="radio" id="No" name="Chillis" value="No">
+                    <label for="No">No</label><br>
+                </div>
+                </div>
+                <!--End-->
+                <div class="sysmptoms">
+                    <div class="input-div" >
+                        <span id="Cough-error" class="error"></span><br>
+                        <!-- Cough-->
+                        <img class="covid-images" src="images/Cough.jpg">
+                        <br>
+                        <input type="radio" id="Yes" name="Cough" value="Yes">
+                        <label for="Yes">Yes</label>
+                        <input type="radio" id="No" name="Cough" value="No">
+                        <label for="No">No</label><br>
+                    </div>
+                    <!--End-->
+
+                    <div class="input-div" >
+                        <span id="breath-error" class="error"></span><br>
+                        <!-- breath-->
+                        <img class="covid-images" src="images/breath.jpg">
+                        <br>
+                        <input type="radio" id="Yes" name="breath" value="Yes">
+                        <label for="Yes">Yes</label>
+                        <input type="radio" id="No" name="breath" value="No">
+                        <label for="No">No</label><br>
+                    </div>
+                </div>
+                <br/><br/>
+                <!--End-->
+                <p><b><span class="policyheading">Note</span>*</b><br>    If you have an existingcondition that gives you thesymptoms you should not answer YES,
+                    unless the symptom is new,different or getting worse.Look for changes from your normal symptoms.</p>
+                <p><b><span class="policyheading" >Instructions:   </span></b> <br>If you answered YES to any of these questions ,
+                     stay home & self-isolate. Call Telehealth or ypur health care provider , to find out if you need a test.
+                <p> If you answered NO to all of these question,you are welcomed to our Hotel </p></p>
+            <p><b><span class="policyheading">Policy: </span></b><br>The following questions are used to screen for COVID-19 before entry into a Hotel as per Ontario Regulation 34/20.They can also be used for other activities.</p>
+            
+            <div class="submit-div" >
+                <!-- breath-->
+                
+                <input type="Submit" value="BOOK ROOM" id="Submit" onclick="return validateform()">
+                        </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="footer">
+
+</div>
+</body>
+
+
+   
+</html>
