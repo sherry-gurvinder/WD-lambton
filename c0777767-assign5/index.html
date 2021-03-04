@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link href="style.css" rel="stylesheet">
+	
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+	<header>
+		<img src="https://banner2.cleanpng.com/20180412/hkq/kisspng-currency-converter-amazon-alexa-foreign-exchange-m-euro-5ad01b40c0b636.2637867015235879047894.jpg" style="height:100%"></header>
+		<div class="Container">
+
+			<p id="currency-heading"><span id="cur-head-move">Live Currency Calculator
+				<span style="font-size:18px">(exchange rate may vary)</span></span></p>
+			<div id="Currency-convert">
+				<table id="table1">
+					<form id="Currency-form">
+
+
+
+
+						<p style="Font-size:32px;color:white;  margin-top: 0px;  text-align: center;">Exchange Price:
+							<span id="Amount"></span><br>
+							<span id="entered_season"></span>
+						</p>
+
+
+						<tr>
+							<td>
+								<p>
+									<span style="font-size:28px;color:white">From </span>
+									<select class="current1" id="origin"></select>
+								</p>
+							</td>
+							<td>
+								<p>
+									<span style="font-size:28px;color:white">To</span><br>
+									<select class="current1" id="destination"><option></option></select>
+								</p>
+							</td>
+						</tr>
+
+						<tr>
+							<td colspan="2">
+								<p><span style="font-size:25px;color:white">Amount </span><input type="text" id="origin_amount" placeholder="0.0"></td>
+								</p>
+						</tr>
+
+						<tr>
+							<td>
+								<p><input type="submit" class="btns" value="convert" id="convert"></p>
+							</td>
+							<td>
+								<p><input type="button"  class="btns" value="season" id="season"></p>
+							</td>
+						</tr>
+
+
+					</form>
+				</table>
+			</div>
+
+		</div>
+
+
+		<footer></footer>
+</body>
+
+</html>
